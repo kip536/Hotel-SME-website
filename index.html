@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Green valley home page</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Green Valley Resort</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="Video.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>DROP BY</h2>
+            <h3> HAVE A TASTE OF OUR DELICACY
+            </h3>
+            <p>The brightest of welcomes awaits you at the wonderful world of Green Valley. Located at Cherika along Nakuru-Nyahururu highway. It brings a genuine sense of our Kenyan taste of culture to this historic waterway. Its hospitality lights up every
+                moment of your stop at Green Valley Resort.</p>
+            <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li>
+                <a href="#"><img src="Facebook icon.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="Twitter icon.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="Instagram icon.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="Messenger icon.png" alt=""></a>
+            </li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="destination.html">Reach us</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins', sans-serif;
+    }
+    
+    .container {
+        align-content: center;
+        text-align: center;
+        margin: 10px;
+        background-color: rgb(39, 99, 148);
+        color: #fff;
+        width: 100%;
+        min-height: 100vh;
+        padding: 100px;
+        background: url("location.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .container header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px 100px;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .toggle {
+        right: 0;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        filter: invert(1);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    .place p {
+        margin: 10px;
+        font-size: 1.5em;
+    }
+    
+    .call h2 {
+        margin: 10px;
+        list-style: none;
+    }
+    
+    .call h3 {
+        margin: -8px;
+    }
+    
+    .call li {
+        list-style: none;
+    }
+    
+    .call h3 li {
+        margin: 3px;
+        list-style: none;
+        font-size: 1.5em;
+    }
+    
+    .call li h3 {
+        margin: 20px;
+    }

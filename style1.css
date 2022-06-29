@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    color: rgb(247, 244, 244);
+    justify-content: space-between;
+    align-items: center;
+    background: url("services.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle {
+    right: 0;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    filter: invert(1);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.text h2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-style: italic;
+    font-size: 2em;
+    display: flex;
+    margin: 10px;
+    margin-top: -20;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #141413;
+    mix-blend-mode: overlay;
+}
+
+.text li {
+    font-size: 1.7em;
+}
+
+.list {
+    font-size: 1.5em;
+}
+
+.list h3 {
+    position: relative;
+    font-size: 2em;
+    margin: 15px 0;
+    font-weight: 400;
+    max-width: 700px;
+}
+
+.list h4 {
+    margin-top: 10px;
+}
